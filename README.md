@@ -1,1 +1,2 @@
 # Node_Zombie_Game
+A very simple Node.js game that asks the user to pick a number 1 - 5. If the user's number matches the random zombie number, then the zombie's health will decrease by a number 1-5 generated with Math.floor(Math.random * 5) + 1. However, if the user's number does not match the zombie's number then the user's health will decrease by a random number 1 - 5. The user's health starts at 70 and decrease everytime the numbers do not match. The zombie's health starts at 15 and decreases everytime the number's match. 
